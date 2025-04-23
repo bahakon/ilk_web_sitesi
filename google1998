@@ -1,0 +1,97 @@
+<!-- google_beta_clone.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Google Beta Clone</title>
+  <!-- İç CSS: Sayfa genel stil ayarları -->
+  <style>
+    /* Temel sıfırlama */
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: Arial, sans-serif; background: #f2f2f2; color: #333; }
+    
+    /* Üst logo bölümü */
+    .header { text-align: center; padding: 30px 0; background: #fff; }
+    .header img { max-width: 300px; }
+    
+    /* Arama çubuğu bölümü */
+    .search-area { text-align: center; padding: 20px 0; background: #fff; }
+    .search-area input[type="text"] {
+      width: 400px;
+      padding: 8px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+    }
+    .search-area input[type="submit"] {
+      margin: 0 5px;
+      padding: 8px 12px;
+      font-size: 14px;
+      cursor: pointer;
+    }
+    
+    /* Alt bağlantılar bölümü */
+    .links-bar {
+      display: flex;
+      background: #66CCCC;
+      border-top: 1px solid #ccc;
+    }
+    .links-bar > div {
+      flex: 1;
+      padding: 15px;
+      text-align: center;
+      border-right: 1px solid #fff;
+    }
+    .links-bar > div:last-child { border-right: none; background: #539090; }
+    .links-bar a { display: block; color: #003; text-decoration: none; margin: 5px 0; }
+    .links-bar a:hover { text-decoration: underline; }
+    
+    /* Footer */
+    .footer { text-align: center; font-size: 12px; padding: 10px; color: #555; }
+  </style>
+</head>
+<body>
+  <!-- Logo: Buraya sağ tıklayıp 'İncele' ile verilen logo URL'sini yapıştırabilirsiniz -->
+  <div class="header">
+    <img src="https://web.archive.org/web/19990504112211im_/http://www.google.com/google.jpg" alt="Google Beta Logo">
+  </div>
+  
+  <!-- Arama formu: Butonlar çalışması gerekmiyor -->
+  <div class="search-area">
+    <form action="#">
+      <input type="text" name="q" placeholder="Search the web using Google!">
+      <!-- Inline CSS örneği: Buton rengi -->
+      <input type="submit" value="Google Search" style="background: #e6e6e6;">
+      <input type="submit" value="I'm Feeling Lucky" style="background: #e6e6e6;">
+    </form>
+  </div>
+  
+  <!-- Alt bölüm: 3 kolon -->
+  <div class="links-bar">
+    <div class="special">
+      <strong>Special Searches</strong>
+      <a href="#">Stanford Search</a>
+      <a href="#">Linux Search</a>
+    </div>
+    <div class="about">
+      <a href="#">Help!</a>
+      <a href="#">About Google!</a>
+      <a href="#">Company Info</a>
+      <a href="#">Google! Logos</a>
+    </div>
+    <div class="subscribe">
+      <p>Get Google! updates monthly:</p>
+      <form action="#">
+        <input type="email" name="email" placeholder="your e-mail">
+        <input type="submit" value="Subscribe">
+      </form>
+      <a href="#">Archive</a>
+    </div>
+  </div>
+  
+  <!-- Telif hakkı metni -->
+  <div class="footer">
+    &copy; 1998 Google Inc.
+  </div>
+</body>
+</html>
